@@ -1,0 +1,27 @@
+# Python/Build
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+
+# App-Daten & Logs
+logs/
+*.log
+*.tmp
+*.db
+*.sqlite
+PyWhatKit_DB.txt
+ui_prefs.json
+telegram_recipients.json
+
+# Binärdateien
+*.exe
+*.dll
+*.png
+*.jpg
+*.ico
+
+# Lokale Konfig/Secrets
+config.json
+.env
