@@ -22,8 +22,9 @@ from glob import glob
 
 
 # >>> FEST VERDRAHTET (dein Token & Bot-Name) <<<
-TELEGRAM_BOT_TOKEN = "8457095680:AAFqRTDnu0jLi1JN4Utc2M5N9Pt3Wt_UIh4"
-BOT_USERNAME = "LastWar_admin_bot"   # ohne @
+TELEGRAM_BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "")
+
 
 # === BAGGER-DEBOUNCE ===
 bagger_lock = False          # True, wenn zuletzt ein Bagger gepostet wurde und Symbol weiterhin sichtbar ist
