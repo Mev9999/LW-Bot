@@ -1,0 +1,22 @@
+{
+  "language": "de",
+  "telegram_bot_token": "8457095680:AAFqRTDnu0jLi1JN4Utc2M5N9Pt3Wt_UIh4",
+  "bot_username": "LastWar_admin_bot",
+  "admin_contact": "@Mev_Bot_Admin89",
+  "tesseract_cmd": "C:/Program Files/Tesseract-OCR/tesseract.exe",
+  "tessdata_prefix": "C:/Program Files/Tesseract-OCR/tessdata",
+  "thresholds": {
+    "bagger": 0.7,
+    "egg": 0.9
+  },
+  "instance_name": "auto",
+  "admin_channel_id": -1002990182932,
+  "features": {
+    "bn_autoclose": false,
+    "egg_autoclose": false,
+    "poll_updates": true
+  },
+  "hub_url": "",
+  "hub_secret": "",
+  "instance_id": "Teamleitung3-84744cfc"
+}
